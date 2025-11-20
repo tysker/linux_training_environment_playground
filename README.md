@@ -19,10 +19,11 @@ This environment works on **Windows**, **macOS**, and **Linux**.
 Follow these steps to launch the Linux exercise environment.
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/tysker/docker-linux-exercises.git
 cd docker-linux-exercises
-````
+```
 
 ### 2️⃣ Build the Docker image
 
@@ -63,13 +64,13 @@ Below are grouped categories of exercises for practicing real Linux skills.
 
 Commands:
 
-* `whoami`
-* `id`
-* `pwd`
-* `ls -l`
-* `printenv`
-* `history`
-* `cd`, `cd ..`
+- `whoami`
+- `id`
+- `pwd`
+- `ls -l`
+- `printenv`
+- `history`
+- `cd`, `cd ..`
 
 **Exercise:**
 Check your user info, list your home directory, navigate to `/etc`, and back.
@@ -82,11 +83,11 @@ Reference: [https://linuxize.com/post/how-to-create-users-in-linux-using-the-use
 
 Commands:
 
-* `sudo useradd -m username`
-* `sudo passwd username`
-* `sudo usermod -s /bin/bash username`
-* `sudo adduser username sudo`
-* `login`
+- `sudo useradd -m username`
+- `sudo passwd username`
+- `sudo usermod -s /bin/bash username`
+- `sudo adduser username sudo`
+- `login`
 
 **Exercise:**
 Create a new user and try to switch into their home directory. What happens?
@@ -97,11 +98,11 @@ Create a new user and try to switch into their home directory. What happens?
 
 Commands:
 
-* `apt search <package>`
-* `apt show <package>`
-* `apt install <package>`
-* `uname -a`
-* `df -h`
+- `apt search <package>`
+- `apt show <package>`
+- `apt install <package>`
+- `uname -a`
+- `df -h`
 
 **Exercise:**
 Install one package of your choice (e.g. `tree` or `net-tools`).
@@ -112,11 +113,11 @@ Install one package of your choice (e.g. `tree` or `net-tools`).
 
 Commands:
 
-* `touch file.txt`
-* `mkdir foldername`
-* `rm`, `rm -r`
-* `cp file1 file2`
-* `mv file1 newname`
+- `touch file.txt`
+- `mkdir foldername`
+- `rm`, `rm -r`
+- `cp file1 file2`
+- `mv file1 newname`
 
 **Exercise:**
 Create a folder, make a text file inside it, and then delete the folder including its contents.
@@ -127,11 +128,11 @@ Create a folder, make a text file inside it, and then delete the folder includin
 
 Commands:
 
-* `nano`
-* `cat`
-* `less`
-* `head`
-* `tail`
+- `nano`
+- `cat`
+- `less`
+- `head`
+- `tail`
 
 **Exercise:**
 Write a short paragraph into a file, then inspect it using all the above commands.
@@ -142,9 +143,9 @@ Write a short paragraph into a file, then inspect it using all the above command
 
 Commands:
 
-* `grep`
-* `grep pattern file | sort`
-* `find -name "<pattern>"`
+- `grep`
+- `grep pattern file | sort`
+- `find -name "<pattern>"`
 
 **Exercise:**
 Search for the word “kernel” in a text file and pipe the results to `sort`.
@@ -155,8 +156,8 @@ Search for the word “kernel” in a text file and pipe the results to `sort`.
 
 Commands:
 
-* `unzip archive.zip`
-* `tar -xvf archive.tar`
+- `unzip archive.zip`
+- `tar -xvf archive.tar`
 
 **Exercise:**
 Use the included **myzip.zip** file and extract it.
@@ -167,11 +168,11 @@ Use the included **myzip.zip** file and extract it.
 
 Commands:
 
-* `command1 && command2`
-* `echo "text" > file`
-* `echo "more" >> file`
-* `wc -l file`
-* Options: `-l`, `-w`, `--lines`
+- `command1 && command2`
+- `echo "text" > file`
+- `echo "more" >> file`
+- `wc -l file`
+- Options: `-l`, `-w`, `--lines`
 
 **Exercise:**
 Append three lines to a file, then count how many words it contains.
@@ -182,10 +183,10 @@ Append three lines to a file, then count how many words it contains.
 
 Commands:
 
-* `ip`
-* `ping`
-* `curl`
-* `ifconfig` *(install: `apt install net-tools`)*
+- `ip`
+- `ping`
+- `curl`
+- `ifconfig` _(install: `apt install net-tools`)_
 
 **Exercise:**
 Ping **8.8.8.8** and check your IP address.
@@ -196,9 +197,9 @@ Ping **8.8.8.8** and check your IP address.
 
 Commands:
 
-* `ps`
-* `top`
-* `kill <pid>`
+- `ps`
+- `top`
+- `kill <pid>`
 
 **Exercise:**
 Start a long-running command (e.g. `ping google.com`) and kill it using its PID.
@@ -209,8 +210,8 @@ Start a long-running command (e.g. `ping google.com`) and kill it using its PID.
 
 Commands:
 
-* `chmod <octal> file`
-* `chmod 755 script.sh`
+- `chmod <octal> file`
+- `chmod 755 script.sh`
 
 **Exercise:**
 Create a script, make it executable, and run it.
@@ -219,9 +220,9 @@ Create a script, make it executable, and run it.
 
 ## 🎁 **12. Extra Tools (Optional but fun)**
 
-* [SDKMAN](https://sdkman.io/) — Install JDKs with one command
-* [ZSH / Oh My Zsh](https://ohmyz.sh/) — Fancy shell
-* `wget`, `curl`, `tree`, `htop`, `neofetch`
+- [SDKMAN](https://sdkman.io/) — Install JDKs with one command
+- [ZSH / Oh My Zsh](https://ohmyz.sh/) — Fancy shell
+- `wget`, `curl`, `tree`, `htop`, `neofetch`
 
 Try installing these tools and explore the differences.
 
