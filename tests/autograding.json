@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Check username file",
+      "setup": "",
+      "run": "bash tests/check_username.sh",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
