@@ -102,35 +102,13 @@ docker exec -it mylinuxenv bash
 
 ---
 
-# 🧪 What to Submit
+# ✔️ Submission Checklist
 
-- Commit your answers, scripts, and notes into this repository.
-- Push your changes to GitHub.
-- Your teacher will review your repository.
+Before you push your work, make sure you:
 
-Good luck, and have fun exploring Linux! 🐧
-
-```
-
----
-
-# ✔️ 5B — Adjust your main README to be teacher-focused
-Your main README should guide **you** and future instructors.
-Students will follow `INSTRUCTIONS.md` instead.
-
-If you want, I can rewrite your main README as well (just say so).
-
----
-
-# 🔹 Your task now
-1. Add `INSTRUCTIONS.md` to your template repository.
-2. Commit & push.
-
-This ensures all future Classroom repos get it automatically.
-
----
-
-When you’re done, say **“Step 5 done”**, and we continue to:
-
-# 🔸 Step 6 — Adding optional **autograding** so GitHub can test student work automatically.
-```
+[ ] Created username.txt  
+[ ] Created practice folder  
+[ ] Wrote text into notes.txt  
+[ ] Created hello.sh and made it executable  
+[ ] Completed the grep exercises  
+[ ] Killed a process

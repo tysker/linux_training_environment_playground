@@ -89,4 +89,14 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij+all
+# macOS
+.DS_Store
+
+# linux
+*.swp
+
+# students may add random log files
+*.log
+
+# temporary containers data
+data/
